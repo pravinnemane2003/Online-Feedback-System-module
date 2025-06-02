@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Feedback Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h2>Feedback Form</h2>
+	<form action="FeedbackServlet" method="post" onsubmit="return validateForm()">
+	<input type="text" name="name" placeholder="enter the name"><br>
+	<input type="email" name="email" placeholder="enter the email"><br>
+	<textarea name="message"placeholder="your message"></textarea>
+	<button type="submit" class="centered_button">submit feedback</button>
+	</form>
+<script src="script.js"></script>
+</body>
+</html>

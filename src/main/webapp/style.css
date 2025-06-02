@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+	font-family:Arial;
+	margin:50px;
+	background-color:#f2f2f2;
+}
+form{
+	background-color: #fff;
+	padding:20px;
+	border-radius:-px;
+	
+}
+
+input,textarea{
+	width:60%;
+	margin-bottom:100px;
+	padding:8px;
+}
+button{
+	text-align:center;
+	background-color: #4CAF50;
+	color:white;
+	border:none;
+	padding:20px;
+}
