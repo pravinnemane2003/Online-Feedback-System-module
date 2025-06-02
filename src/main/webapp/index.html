@@ -9,8 +9,11 @@
 <body>
 	<h2>Feedback Form</h2>
 	<form action="FeedbackServlet" method="post" onsubmit="return validateForm()">
+	<label>Enter your name</label>
 	<input type="text" name="name" placeholder="enter the name"><br>
+	<label>Enter your EmailID</label>
 	<input type="email" name="email" placeholder="enter the email"><br>
+	<label>Write your feedback</label>
 	<textarea name="message"placeholder="your message"></textarea>
 	<button type="submit" class="centered_button">submit feedback</button>
 	</form>
