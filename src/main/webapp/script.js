@@ -4,7 +4,7 @@ function validateForm() {
   let message = document.forms[0]["message"].value;
 
   if (name.length < 3) {
-    alert("Name must be at least 3 characters");
+    alert("Fill all the field");
     return false;
   }
   return true;
